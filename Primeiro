@@ -18,6 +18,7 @@ int main()
 	printf("Aluno Aprovado com media: %1.f", media); 
 	else if ((media>=5.0)&& (media<6.0))
 	printf("Aluno Recuperacao com media: %1.f", media);
-	
+	else 
+	printf("Aluno Reprovou com media: %1.f", media);
 	return 0;		
 }
